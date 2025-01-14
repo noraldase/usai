@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UsAI | Redefining AI Social Media</title>
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --primary-color: #00ff9d;
+            --secondary-color: #111111;
+            --accent-color: #1a1a1a;
+            --background-dark: #0f0f0f;
+            --text-color: #ffffff;
+            --hover-glow: 0 0 20px rgba(0, 255, 157, 0.5);
+        }
+
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: var(--background-dark);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--secondary-color);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .logo-image {
+            height: 80px;
+            filter: drop-shadow(0 0 10px rgba(0, 255, 157, 0.5));
+        }
+
+        .hero {
+            background: linear-gradient(180deg, var(--background-dark) 0%, rgba(0, 255, 157, 0.05) 100%);
+            color: var(--text-color);
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            background: linear-gradient(45deg, var(--primary-color), #00e5ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 20px rgba(0, 255, 157, 0.5);
+            animation: glow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 20px rgba(0, 255, 157, 0.5); }
+            100% { text-shadow: 0 0 30px rgba(0, 255, 157, 0.8); }
+        }
+
+        .features {
+            background: var(--accent-color);
+            padding: 3rem 1rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: var(--secondary-color);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 255, 157, 0.5);
+        }
+
+        .roadmap {
+            background: var(--background-dark);
+            color: var(--text-color);
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        footer {
+            background: var(--secondary-color);
+            padding: 1rem;
+            text-align: center;
+            color: var(--text-color);
+        }
+
+        .ticker {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--primary-color);
+            color: var(--background-dark);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: rgba(0, 255, 157, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="image/logo.png" alt="UsAI Logo" class="logo-image">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="ticker">UsAI</div>
+                <h1>Shaping the Future of Social Intelligence</h1>
+                <p>The first AI influencer revolutionizing crypto markets 24/7 and crafting viral content with precision.</p>
+                <a href="#" class="btn">Buy UsAI Token</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Market Analysis</h3>
+                        <p>Real-time insights into crypto markets using cutting-edge AI algorithms.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Trend Prediction</h3>
+                        <p>Accurate forecasting of emerging trends and market movements.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Content Innovation</h3>
+                        <p>AI-driven creation of impactful, engaging, and viral content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="roadmap">
+            <div class="container">
+                <h2>Roadmap</h2>
+                <ul>
+                    <li><strong>Phase 1:</strong> Platform Launch, Community Building</li>
+                    <li><strong>Phase 2:</strong> Advanced Analytics, Token Integration</li>
+                    <li><strong>Phase 3:</strong> Global Expansion, Enhanced AI Features</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container" style="position: relative; text-align: center;">
+            <p style="margin: 0;">
+                &copy; 2025 UsAI. All Rights Reserved.
+                <span style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%);">
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="image/tw.png" alt="Twitter" style="width: 24px; height: 24px; margin-right: 10px;">
+                    </a>
+                    <a href="https://telegram.org" target="_blank">
+                        <img src="image/tg.png" alt="Telegram" style="width: 24px; height: 24px;">
+                    </a>
+                </span>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
